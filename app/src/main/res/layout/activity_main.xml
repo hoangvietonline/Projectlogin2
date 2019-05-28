@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="360dp"
+        android:layout_height="42.2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="119dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="169dp"
+            android:layout_marginTop="11.5dp"
+            android:lineHeight="20.2sp"
+            android:text="CN"
+            android:textSize="13.4sp" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11.5dp"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="360dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/buttonUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="#f4f6f8"
+            android:text="User Profile"
+            android:textAllCaps="false"
+            android:textColor="#a9aaad"
+            android:textSize="11.5dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="17.3dp"
+            android:lineHeight="17.3dp"
+            android:lineSpacingExtra="5.8sp"
+            android:text="Subscription Plans"
+            android:textAllCaps="false"
+            android:textColor="#a9aaad"
+            android:textSize="11.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="18dp"
+            android:lineHeight="17.3dp"
+            android:lineSpacingExtra="5.8sp"
+            android:text="Payment Method"
+            android:textAllCaps="false"
+            android:textColor="#a9aaad"
+            android:textSize="11.5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="18dp"
+            android:lineSpacingExtra="5.8sp"
+            android:text="Settings"
+            android:textAllCaps="false"
+            android:textColor="#a9aaad"
+            android:textSize="11.5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#f4f6f8"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="67.2dp"
+            android:layout_height="67.2dp"
+            android:layout_marginLeft="146.9dp"
+            android:layout_marginTop="13.4dp"
+            android:src="@drawable/ava" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="108.5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_camera_alt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6.7dp"
+                android:text="Change profile picture" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="19.2dp"
+            android:text="FULL NAME"
+            android:textSize="11.5sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="321.6dp"
+            android:layout_height="42.2dp"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="10.6dp"
+            android:text="EMAIL"
+            android:textSize="11.5sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="321.6dp"
+            android:layout_height="42.2dp"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="10.6dp"
+            android:text="PHONE NUMBER"
+            android:textSize="11.5sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="105dp"
+                android:layout_height="42.2dp"
+                android:layout_marginLeft="19.2dp"
+                android:background="#fff"
+                android:drawableLeft="@drawable/vietnam"
+                android:drawableRight="@drawable/arrow_dropdown"
+                android:padding="5dp"
+                android:text="+84"
+                android:textColor="#455a64"
+                android:textSize="13.4sp" />
+
+            <EditText
+                android:layout_width="205dp"
+                android:layout_height="42.2dp"
+                android:layout_marginLeft="9.6dp"
+                android:layout_marginTop="3dp"
+                android:background="#fff" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="10.6dp"
+            android:text="COMPANY"
+            android:textSize="11.5sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="321.6dp"
+            android:layout_height="42.2dp"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="10.6dp"
+            android:text="CONFIRM PASSWWORD"
+            android:textSize="11.5sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="321.6dp"
+            android:layout_height="42.2dp"
+            android:layout_marginLeft="19.2dp"
+            android:layout_marginTop="3dp"
+            android:background="#fff"
+            android:inputType="textPassword"
+            android:text="dsadadadasdasdasdasds" />
+
+        <Button
+            android:layout_marginBottom="50dp"
+            android:layout_width="240dp"
+            android:layout_height="42.2dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="#3bb7cf"
+            android:text="UPDATE"
+            android:textColor="#fff"
+
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
